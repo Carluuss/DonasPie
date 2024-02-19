@@ -87,3 +87,9 @@ header {
 .nav-cardapio .nav-link:hover {
     color: #fff;
 }
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
