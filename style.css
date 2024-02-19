@@ -1,0 +1,89 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: rgb(152, 241, 124);
+    box-shadow: 1px 1px 10px black;;    
+}
+
+.navbar {
+    background-color: rgb(152, 241, 124);
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+
+.nav-link {
+    color: rgb(248, 90, 79);
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+
+
+#cabecalho .nav .nav-link.active {
+    background-color: #e41717;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-link.active:hover {
+    color: #fff;
+}
+
+.text-colored {
+    color: #e41717;
+    font-size: 26px;
+}
+
+.carouselImage {
+    width: 202vh; 
+    height: 90vh;
+}
+
+.imageSobre {
+    width: 20vh;
+    display: block;
+}
+
+#sobre-a-loja {
+    background-color: #fff;
+    
+}
+
+.cardInfo {
+    background-color: #adec9a9a;
+    border-radius: 15px;
+
+}
+
+.imageIcon {
+    width: 12em;
+    position: relative;
+    display: block;
+   bottom: 9em;
+   left: 75em;
+    transform: rotate(30deg)
+    
+}
+
+.background {
+    background-image: url(image/restaurante.jpg);
+}
+
+#tortas {
+    background-color: #adec9a9a;
+}
+
+.nav-cardapio .nav-link.active, #fale-conosco button {
+    background-color: #e41717;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #fff;
+}
